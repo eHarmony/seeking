@@ -1,0 +1,56 @@
+Seeking is library for generically building and executing type safe queries against different data stores.
+Copyright 2012 eHarmony, Inc.
+
+Third Party Dependencies:
+
+seeking-core
+
+  Google Guava 11.0.1
+  Apache License 2.0
+  https://code.google.com/p/guava-libraries/
+
+  Jackson Core, Jackson Mapper 1.9.5
+  GNU Lesser General Public License
+  http://jackson.codehaus.org/
+
+seeking-hibernate
+
+  Hibernate Core 4.1.3
+  GNU Lesser General Public License
+  http://hibernate.org/
+
+  Spring ORM, Spring Transaction 3.0.5.RELEASE
+  Apache License 2.0
+  http://www.springsource.org/
+
+seeking-mongo
+
+  mongo-java-driver 2.9.3
+  Apache License 2.0
+  https://github.com/mongodb/mongo-java-driver
+  
+  Morphia 0.99
+  Apache License 2.0
+  https://code.google.com/p/morphia/
+  
+  Apache Commons Logging
+  Apache License 2.0
+  http://commons.apache.org/proper/commons-logging/
+
+seeking-solr
+
+  SolrJ 4.1.0
+  Apache License 2.0
+  http://wiki.apache.org/solr/Solrj
+  
+  Apache HttpClient, HttpCore, HttpMime 4.1.x
+  Apache License 2.0
+  http://hc.apache.org/
+  
+  Joda Time 2.1
+  Apache License 2.0
+  http://joda-time.sourceforge.net/
+  
+  SLF4J
+  MIT License
+  http://www.slf4j.org/
