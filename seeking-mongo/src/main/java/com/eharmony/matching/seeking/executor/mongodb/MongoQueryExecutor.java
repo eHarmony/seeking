@@ -121,6 +121,16 @@ public class MongoQueryExecutor implements QueryExecutor {
         this(mongo.getDB(database), writeConcern, queryTranslator, entityResolver);
     }
     
+    public MongoQueryExecutor(
+            Mongo mongo,
+            String database,
+            WriteConcern writeConcern,
+            MongoQueryTranslator queryTranslator,
+            EntityResolver entityResolver,
+            final int batchSize) {
+        this(mongo.getDB(database), writeConcern, queryTranslator, entityResolver, batchSize);
+    }
+    
     public DB getDB() {
         return db;
     }
