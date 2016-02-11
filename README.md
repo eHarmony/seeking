@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eHarmony/seeking.svg?branch=master)](https://travis-ci.org/eHarmony/seeking)
+
 # Seeking
 
 Seeking is library for generically building and executing type safe queries against different data stores.
